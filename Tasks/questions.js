@@ -28,5 +28,21 @@ sum = 0
 for (let i = 1; i <= 10; i++) {
     sum+=i
 }
+console.log(n*(n+1)/2)
 console.log(sum);
-// ! wap to sum all digs of a num witghout using type casting
+//! wap to sum all digs of a num witghout using type casting
+var n = 123
+s = 0
+for (var i=1; i<=3;i++){
+    var r = n%10
+    console.log(r);
+    s+=r
+    n=Math.floor(n/10)
+}
+console.log(s)
+//! Wap to check a given num is a number or not
+n = 9
+console.log(typeof n);
+if (typeof n == 'number') {
+  console.log('It  is a number')
+}
