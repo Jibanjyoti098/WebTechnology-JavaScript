@@ -50,3 +50,19 @@ function remDig(s, op) {
     console.log(op);
 }
 remDig('rishi@098', '')
+
+//! Convert a sentence to an array
+function Convert(s, a){
+    r = ''
+    for (let i =0; i<=s.length;i++) {
+        
+        if (s[i]==' '|| i == s.length){
+            a.push(r)
+            r=''
+        }else{
+            r+=s[i]
+        }
+    }
+    console.log(a);  
+}
+Convert('Koi mil gaya', [])
