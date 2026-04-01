@@ -66,3 +66,7 @@ function Convert(s, a){
     console.log(a);  
 }
 Convert('Koi mil gaya', [])
+
+//! Find the missing number from a given array [1,3,5,10,9]
+//! 1.min and max
+//! 2.iterate 
